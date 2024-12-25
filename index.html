@@ -7,13 +7,42 @@
     <title>Sign-up Form</title>
 </head>
 <body>
-    <div class="bg-img">
-        <div class="hero">
-            <img src="/img/odin-lined.png" alt="Odin Project Logo" class="hero-logo" width="80px">        
-            <h1 class="hero-title">ODIN</h1>
+    <div class="container">
+        <div class="bg-img">
+            <div class="hero">
+                <img src="/img/odin-lined.png" alt="Odin Project Logo" class="hero-logo" width="80px">        
+                <h1 class="hero-title">ODIN</h1>
+            </div>
         </div>
-    </div>    
-    
+        <div class="form">
+            <p>
+                This is no real online service! You know you need something like this in your life to help you to realize your deepest dreams.
+                <br>
+                You know you want to.
+            </p>
+            <form action="#">
+                <fieldset>
+                    <legend>Let's do this!</legend>
+                    <label for="user_name" >First Name</label>
+                    <input type="text" id="user_name" placeholder="Thor">
+                    <label for="user_surname" >Last Name</label>
+                    <input type="text" id="user_surname" placeholder="Odinson">
+                    <label for="email">Email</label>
+                    <input type="email" id="email">
+                    <label for="user_phone_number">Phone Number</label>
+                    <input type="tel" id="user_phone_number">
+                    <label for="user_pasword">Password</label>
+                    <input type="password" id="user_pasword">
+                    <label for="user_confirm_pasword">Confirm Password</label>
+                    <input type="password" id="user_confirm_pasword">
+                    <input type="submit" value="Create Account">
+                </fieldset>
+            </form>
+            <p>Already have an account? <a href="#">Log in</a></p>
+        </div>
+        
+        
+    </div>
     
 </body>
 </html>
