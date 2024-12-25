@@ -1,8 +1,8 @@
 @font-face{
     font-family: 'Norse-Bold';    
-    src: url('/fonts/norse-bold-webfont.woff') format('woff'),
-    url('/fonts/norse-bold-webfont.woff2') format('woff2'),
-    url('/fonts/Norse-Bold.otf') format('otf');
+    src: url('fonts/norse-bold-webfont.woff') format('woff'),
+    url('fonts/norse-bold-webfont.woff2') format('woff2'),
+    url('fonts/Norse-Bold.otf') format('otf');
 }
 
 html {
@@ -30,7 +30,7 @@ a, input {
 .bg-img {
     width: 40%;
     height: 100vh;
-    background-image: url(/img/halie-west-25xggax4bSA-unsplash.jpg);
+    background-image: url(img/halie-west-25xggax4bSA-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
